@@ -132,6 +132,14 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 }
 
+.innovation button {
+    border: 1px black solid;
+    width: 40%;
+    font-size: 25%;
+    background-color: white;
+}
+
+
 .img {	
 	border: 1px white solid;
     width: 40%;	
@@ -256,6 +264,16 @@ footer .info1 {
 	padding: 4%;
 }
 
+.single p {
+    padding: 0 0 2% 0;
+}
+
+.single button {
+    border: 1px black solid;
+    width: 35%;
+    padding: 1% 0;
+}
+
 footer {
     border: 1px white solid;
     font-size: 18px;
@@ -312,6 +330,81 @@ footer {
         padding: 0 0 4% 0;
     }
 
+    .innovation button {
+        border: 1px black solid;
+        width: 55%;
+        font-size: 25%;
+        background-color: white;
+    }
+
+    .img {
+        display: none;
+    }
+
+    
+
+    /* services html */
+    .single button {
+        border: 1px black solid;
+        width: 60%;
+        padding: 1% 0;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+    /* general */
+    .top {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        border: 2px white solid;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+
+    .navigation nav {
+        flex-direction: column;
+        width: 100%; 
+    }
+
+    .navigation nav a {
+        border-bottom: 1px black solid;
+        color: gray;
+        font-size: 120%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 2% 0;
+    }
+
+    .greatidea {
+        width: 100%;
+        justify-content: center;
+        border: 1px white solid;
+    }
+
+    /* index.html */
+
+    .titlehead {
+        border: 1px white solid;
+    }
+
+    .innovation {
+        border: 1px white solid;
+        width: 100%;
+    }
+
+    .innovation button {
+        border: 1px black solid;
+        width: 35%;
+        font-size: 25%;
+        background-color: white;
+    }
+
     .toptext {
         flex-direction: column;
     }
@@ -320,7 +413,7 @@ footer {
         flex-direction: column;
     }
 
-    /* services html */
+    /* services.html */
 
     .pair {
         flex-direction: column;
@@ -328,6 +421,12 @@ footer {
 
     .single {
         width: 100%;
+    }
+
+    .single button {
+        border: 1px black solid;
+        width: 40%;
+        padding: 1% 0;
     }
 
     .footer1 {
@@ -343,52 +442,5 @@ footer {
         width: 100%;
     }
 
-}
-
-@media (max-width: 500px) {
-    /* general */
-    .top {
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
-
-    .navigation {
-        width: 100%;
-    }
-
-    .navigation nav {
-        flex-direction: column;
-        width: 100%;
-        
-    }
-
-    .navigation nav a {
-        border: 2px black solid;
-        border-radius: 30%;
-        background-color: #C0C0C0;
-        color: black;
-        font-weight: bold;
-        display: flex;
-        flex-direction: center;
-        justify-content: center;
-        width: 100%;
-        padding: 2% 0;
-    }
-
-    .greatidea {
-        width: 100%;
-        justify-content: center;
-    }
-
-    /* index.html */
-
-    .titlehead {
-        border: 1px white solid;
-    }
-
-    .innovation {
-        border: 1px white solid;
-        width: 100%;
-    }
 
 }
