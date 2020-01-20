@@ -372,6 +372,7 @@ footer {
         flex-direction: center;
         justify-content: center;
         width: 100%;
+        padding: 2% 0;
     }
 
     .greatidea {
