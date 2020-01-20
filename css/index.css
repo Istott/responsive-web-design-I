@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-*{
+* {
 	box-sizing:border-box;
   	padding:0;
  	margin:0;
@@ -68,12 +68,12 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.container{
+.container {
 	border: 1px white solid;
 	
 }
 
-.top{
+.top {
     border: 4px white solid;
     display: flex;
 	justify-content: center;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.top .navigation{
+.top .navigation {
 	border: 1px white solid;
 	width: 60%;
 	display: flex;
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5 {
 	text-align: right;
 }
 
-.top .navigation nav{
+.top .navigation nav {
 	border: 1px white solid;
 	display: flex;
 	justify-content: flex-start;
@@ -99,25 +99,25 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.top nav a{
+.top nav a {
   	color: gray;
 	text-decoration: none;
 	border: white 1px solid;
 	width:70%;
 }
 
-.greatidea{
+.greatidea {
 	display: flex;
 	justify-content: flex-start;
 	border: 3px white solid;
     width:15%;
 }
 
-.logo{
+.logo {
 	border: 1px white solid;
 }
 
-.titlehead{
+.titlehead {
 	display: flex;
 	justify-content: center;
     align-items: center;
@@ -125,27 +125,27 @@ h1, h2, h3, h4, h5 {
     width: 100%;
 }
 
-.innovation{
+.innovation {
 	width: 40%;
 	font-size: 500%;
 	border:  1px white solid;
 	text-align: center;
 }
 
-.img{	
+.img {	
 	border: 1px white solid;
     width: 40%;	
     display: flex;
     justify-content: center;
 }
 
-.body{
+.body {
 	font-size: 18px;
     padding: 1% 16%;
     border: 1px white solid;	
 }
 
-.body .toptext{
+.body .toptext {
 	border: 1px white solid;
 	display: flex;
     justify-content: space-between;
@@ -153,15 +153,15 @@ h1, h2, h3, h4, h5 {
     padding: 2%;
 }
 
-.bodyimg{
+.bodyimg {
 	border: 3px white solid;	
 }
 
-.middle-img{
+.middle-img {
 	width: 100%;
 }
 
-.bottomtext{
+.bottomtext {
 	border: 1px white solid;
 	display: flex;
     justify-content: space-between;
@@ -169,16 +169,16 @@ h1, h2, h3, h4, h5 {
     width: 100%;
 }
 
-.service{
+.service {
     padding: 0 1% 0 0;
 }
 
-.product{
+.product {
     padding: 0 1%;
 }
 
 
-footer{
+footer {
 	width: 100%;
 	font-size: 18px;
 	border: 1px white solid;
@@ -187,20 +187,20 @@ footer{
 	justify-content: center;	
 }
 
-footer .info1{
+footer .info1 {
 	width: 94%;
     border: 1px white solid;
     border-top: 2px gray solid;
     padding: 1% 2%;
 }
 
-.copy p{
+.copy p {
 	text-align: center;
 }
 
 /*this is the services page*/
 
-.topimg{
+.topimg {
     width: 100%;
     border: 3px white solid;
     display: flex;
@@ -210,46 +210,45 @@ footer .info1{
     
 }
 
-.topimg img{
+.topimg img {
     width: 80%;
     border: 3px white solid;
     padding: 1% 6%;
 }
 
-.services{
+.services {
 	padding: 1% 6%;
     border-bottom: 1px solid gray;
     border: 3px white solid;
     width: 80%;
 }
 
-.services h1{
+.services h1 {
 	font-size: 200%;
 }
 
-.services p{
+.services p {
     font-size: 18px;
     border-bottom: 2px gray solid;
     padding: 0 0 3% 0;
 }
 
-.body1{
+.body1 {
 	font-size: 18px;
 	padding: 1% 14%;
     border: 3px white solid;
 }	
 
-.pair{
+.pair {
 	border: 1px white solid;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	width: 100%;
-	flex-wrap: wrap;
-	
+	flex-wrap: wrap;	
 }
 
-.single{
+.single {
 	width: 45%;
 	border: 1px black solid;
 	background-color: #C0C0C0;
@@ -257,47 +256,92 @@ footer .info1{
 	padding: 4%;
 }
 
-footer{
+footer {
     border: 1px white solid;
     font-size: 18px;
 	padding: 1% 14%;
 }
 
-.footer1{
+.footer1 {
 	border: 1px white solid;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
     width: 95%;
     border-top: 2px gray solid;
-
 }
 
-.facts{
+.facts {
 	border: 1px white solid;	
 	padding: 0 4% 0 1%;
     width: 50%;
-    height: 40vh;
+    
 }
 
-.list{
+.list {
     border: 1px white solid;
     padding: 1%;
 }
 
-.list ul{
+.list ul {
     list-style-type: square;
     padding: 2% 4%;
 }
 
-.bottomimg{
+.bottomimg {
 	padding: 1%;
     width: 50%;
     display: flex;
     justify-content: center;
+    border: 1px white solid;
 }
 
-.bottomimg img{
+.bottomimg img {
     width: 95%;
 }
 
+/* media queries */
+
+@media (max-width: 800px){
+    /* index.html */
+
+    .titlehead {
+        flex-direction: column;
+    }
+
+    .innovation {
+        padding: 0 0 4% 0;
+    }
+
+    .toptext {
+        flex-direction: column;
+    }
+
+    .bottomtext {
+        flex-direction: column;
+    }
+
+    /* services html */
+
+    .pair {
+        flex-direction: column;
+    }
+
+    .single {
+        width: 100%;
+    }
+
+    .footer1 {
+        flex-direction: column;
+    }
+
+    .facts {
+        width: 100%;
+        padding: 3% 0 0 0;
+    }
+
+    .bottomimg {
+        width: 100%;
+    }
+
+}
