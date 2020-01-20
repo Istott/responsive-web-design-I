@@ -164,8 +164,19 @@ h1, h2, h3, h4, h5 {
 .bottomtext{
 	border: 1px white solid;
 	display: flex;
-	justify-content: space-evenly;
+    justify-content: space-between;
+    padding:2%;
+    width: 100%;
 }
+
+.service{
+    padding: 0 1% 0 0;
+}
+
+.product{
+    padding: 0 1%;
+}
+
 
 footer{
 	width: 100%;
@@ -173,15 +184,14 @@ footer{
 	border: 1px white solid;
 	padding: 1%;
 	display: flex;
-	justify-content: center;
-	
+	justify-content: center;	
 }
 
 footer .info1{
-	width: 69%;
+	width: 94%;
     border: 1px white solid;
     border-top: 2px gray solid;
-    padding: 1% 0;
+    padding: 1% 2%;
 }
 
 .copy p{
@@ -248,7 +258,7 @@ footer .info1{
 }
 
 footer{
-    border: 1px red solid;
+    border: 1px white solid;
     font-size: 18px;
 	padding: 1% 14%;
 }
@@ -264,21 +274,30 @@ footer{
 }
 
 .facts{
-	border: 1px red solid;	
-	padding: 1%;
-	width: 50%;
+	border: 1px white solid;	
+	padding: 0 4% 0 1%;
+    width: 50%;
+    height: 40vh;
 }
 
 .list{
-    border: 1px green solid;
+    border: 1px white solid;
     padding: 1%;
 }
 
+.list ul{
+    list-style-type: square;
+    padding: 2% 4%;
+}
+
 .bottomimg{
-	border: 1px purple solid;
 	padding: 1%;
     width: 50%;
     display: flex;
     justify-content: center;
+}
+
+.bottomimg img{
+    width: 95%;
 }
 
