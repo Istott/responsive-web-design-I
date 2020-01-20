@@ -293,7 +293,6 @@ footer {
     width: 50%;
     display: flex;
     justify-content: center;
-    border: 1px white solid;
 }
 
 .bottomimg img {
@@ -302,7 +301,7 @@ footer {
 
 /* media queries */
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
     /* index.html */
 
     .titlehead {
@@ -341,6 +340,53 @@ footer {
     }
 
     .bottomimg {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    /* general */
+    .top {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+
+    .navigation nav {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .navigation nav a {
+        border: 2px black solid;
+        border-radius: 30%;
+        background-color: #C0C0C0;
+        color: black;
+        font-weight: bold;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .greatidea {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* index.html */
+
+    .titlehead {
+        border: 1px white solid;
+    }
+
+    .innovation {
+        border: 1px white solid;
         width: 100%;
     }
 
