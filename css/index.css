@@ -328,7 +328,6 @@ footer {
         border: 2px white solid;
     }
 
-
     /* index.html */
 
     .titlehead {
@@ -350,16 +349,12 @@ footer {
         display: none;
     }
 
-    
-
     /* services html */
     .single button {
         border: 1px black solid;
         width: 60%;
         padding: 1% 0;
     }
-
-    
 }
 
 @media (max-width: 500px) {
