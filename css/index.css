@@ -320,6 +320,15 @@ footer {
 /* media queries */
 
 @media (max-width: 800px) {
+
+    .top {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        border: 2px white solid;
+    }
+
+
     /* index.html */
 
     .titlehead {
@@ -355,13 +364,7 @@ footer {
 
 @media (max-width: 500px) {
     /* general */
-    .top {
-        flex-direction: column-reverse;
-        justify-content: center;
-        width: 100%;
-        border: 2px white solid;
-    }
-
+    
     .navigation {
         width: 100%;
     }
